@@ -7,3 +7,9 @@ def greet(request):
     message = '<h1>Hello world,django session</h1>'
 
     return httpresponse(message)
+
+
+def display(request):
+    message = '<h1>Hello world,django session</h1>'
+
+    return httpresponse(message)
